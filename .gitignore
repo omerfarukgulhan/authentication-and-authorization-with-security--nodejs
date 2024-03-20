@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Compiled binary addons
+/build/Release
+
+# Dependency lock files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variable files
+*.env
+
+# Mac and Windows file system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Generated files
+coverage/
+dist/
+build/
+
+# Ignore production environment configuration
+config/production.json
+
+# Ignore local environment configuration, adjust as per your setup
+config/local.json
